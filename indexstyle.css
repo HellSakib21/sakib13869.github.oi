@@ -1,0 +1,243 @@
+/* Reset styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+
+body {
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+
+header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: all .5s ease;
+}
+
+nav ul li a:hover {
+    color: #0095ff;
+    font-size: 18px;
+}
+
+/* Hero section styles */
+
+#mainf {
+    background-image: url('main.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+}
+
+#mainf h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: bottom;
+}
+
+#mainf p {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0095ff;
+    color: #fff;
+    padding: 15px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #1a1b1d;
+}
+
+/* About section styles */
+
+#about {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+}
+
+#about h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.column1 {
+    float: left;
+}
+    
+/* Set width length for the left, right and middle columns */
+.left1 {
+    width: 30%;
+}
+    
+.right1 {
+    width: 70%;
+}
+#education {
+    background-color: rgb(247, 238, 227);
+    padding: 100px 0;
+}
+#education p {
+    font-size: 36px;
+    line-height: 1.8;
+    column-count: 3;
+    
+}
+#education h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+        /* Set additional styling options for the columns */
+.column {
+    float: left;
+    text-align: center;
+    
+    font-size: 22px;
+    
+}
+    /* Set width length for the left, right and middle columns */
+.left {
+    width: 33.33%;
+}
+
+.middle {
+    width: 33.33%;
+}
+
+.right {
+    width: 33.34%;
+}
+    
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Portfolio section styles */
+
+#projects {
+    padding: 100px 0;
+}
+
+#projects h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#projects h3 {
+    text-decoration: none;
+
+}
+.projects-item {
+    margin-bottom: 40px;
+    
+}
+
+.projects-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.projects-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+
+.projects-item p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    
+    
+}
+
+/* Contact section styles */
+
+#contact {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+}
+
+#contact h2 {
+    font-size: 36px;
+    text-align: center;
+    padding-top: -10px;
+    
+}
+
+.form-group{
+    text-align:center;
+    padding-top: 20px;
+}
+.submit{
+    text-align: center;
+    padding-top: 40px;
+}
+.foot{
+    text-align: center;
+    background-color: rgb(247, 238, 227);
+    padding: 10px;
+}
